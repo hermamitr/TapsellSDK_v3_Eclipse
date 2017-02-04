@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 
         TapsellConfiguration config = new TapsellConfiguration();
         config.setDebugMode(true);
+        config.setAutoHandlePermissions(true);
 
         Tapsell.initialize(this, config, appKey);
 
